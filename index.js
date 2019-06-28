@@ -37,6 +37,6 @@ return 'Welcome, ' + name + '. You are number ' + lineNo + ' in line'
 
 katzDeliLine.push(name)
 
-return 'Welcome, ' + name + '. You are number ' + line.length + 'in line'
+return 'Welcome, ' + name + '. You are number ' + line.length + ' in line'
 
 }
