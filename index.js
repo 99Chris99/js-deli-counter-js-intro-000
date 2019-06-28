@@ -27,7 +27,7 @@ var lineNo = katzDeliLine
 var personName = name
 var closing = " in line."
 
-return console.log('Welcome $(name)');
+return 'Welcome'
 
 //return personName
 //return opening + personName + middle + lineNo + closing
