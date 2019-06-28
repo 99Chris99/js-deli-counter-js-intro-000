@@ -61,7 +61,7 @@ var lineList = [...katzDeliLine]
 
 if (katzDeliLine.length > 0){
 
-while (i < katzDeliLine.length)// && i < katzDeliLine)
+while (i < katzDeliLine.length)
 {
 
 if (no == 1) {
