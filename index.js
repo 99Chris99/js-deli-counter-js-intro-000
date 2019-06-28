@@ -17,7 +17,7 @@ return array;
 }
 */
 
-function takeANumber (line, name) {
+function takeANumber (katzDeliLine, name) {
 //  line.push(name)
 line++
   //return `Welcome, $(name). You are number $(line.length) in line`
