@@ -43,8 +43,8 @@ return 'Welcome, ' + name + '. You are number ' + katzDeliLine.length + ' in lin
 
 function nowServing (katzDeliLine){
 do {
-  katzDeliLine.shift()
-  return "Currently serving" + katzDeliLine
+  var atCounter = katzDeliLine.shift()
+  return "Currently serving" + atCounter
 }
   while (katzDeliLine.length > 0)
 
