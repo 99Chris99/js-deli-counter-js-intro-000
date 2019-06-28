@@ -70,6 +70,7 @@ if (no = 1) {
   no++
 }
 else {
+  no++
   lineList.splice(i, 1, " " + no + ". " + lineList[i])
   i++
   no++
