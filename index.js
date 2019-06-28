@@ -59,7 +59,7 @@ var i = 0
 while (katzDeliLine.length > 0)
 {
   i++
-  return "The line is currently:" + katzDeliLine + i + "."
+  return "The line is currently:" + i//katzDeliLine + i + "."
 }
   return "The line is currently empty."
 }
