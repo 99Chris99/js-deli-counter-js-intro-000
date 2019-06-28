@@ -64,14 +64,18 @@ if (katzDeliLine.length > 0){
 while (i < katzDeliLine.length)// && i < katzDeliLine)
 {
 
-lineList.splice(i, 1, no + ". " + lineList[i])
+if (no = 1) {
+  lineList.splice(i, 1, no + ". " + lineList[i])
+  i++
+  no++
+}
+else {
+  lineList.splice(i, 1, " " + no + ". " + lineList[i])
+  i++
+  no++
+}
 
-  //lineList.push(katzDeliLine[i])
-  //return "The line is currently:" + i + lineList
-//return katzDeliLine
 
-i++
-no++
 
 }
   return "The line is currently: " + lineList//"The line is currently empty."
