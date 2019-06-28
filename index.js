@@ -61,7 +61,7 @@ while (katzDeliLine.length > 0 && i < katzDeliLine)
 {
 
 
-  
+
   lineList.push(katzDeliLine[i])
   return "The line is currently:" + i + lineList
 
