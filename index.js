@@ -73,7 +73,7 @@ while (katzDeliLine.length > 0 && i < katzDeliLine)
   return "The line is currently empty."
 }
 
-function johnLennonFacts(facts){
+/*function johnLennonFacts(facts){
 var array = []
 var i = 0
 while (i < facts.length) {
