@@ -56,10 +56,11 @@ return "There is nobody waiting to be served!"
 
 function currentLine(katzDeliLine) {
 var i = 0
+var lineList[]
 while (katzDeliLine.length > 0)
 {
-  i++
-  return "The line is currently:" + i//katzDeliLine + i + "."
+  lineList.push(katzDeliLine[i])
+  return "The line is currently:" + i + lineList
 }
   return "The line is currently empty."
 }
