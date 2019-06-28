@@ -18,7 +18,7 @@ return array;
 */
 
 function takeANumber (katzDeliLine, name) {
-//  line.push(name)
+
 katzDeliLine++
 
 return `Welcome $(name). You are number $(katzDeliLine) in line`
