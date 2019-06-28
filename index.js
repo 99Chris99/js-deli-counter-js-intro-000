@@ -40,3 +40,13 @@ katzDeliLine.push(name)
 return 'Welcome, ' + name + '. You are number ' + katzDeliLine.length + ' in line.'
 
 }
+
+nowServing (katzDeliLine){
+do {
+  katzDeliLine.shift()
+}
+  while (katzDeliLine.length > 0)
+
+return "There is nobody waiting to be served."
+
+}
