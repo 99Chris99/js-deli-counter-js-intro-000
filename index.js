@@ -74,7 +74,7 @@ i++
 no++
 
 }
-  return "The line is currently: " lineList//"The line is currently empty."
+  return "The line is currently: " + lineList//"The line is currently empty."
 }
 
 else {
