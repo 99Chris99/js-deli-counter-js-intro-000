@@ -42,11 +42,14 @@ return 'Welcome, ' + name + '. You are number ' + katzDeliLine.length + ' in lin
 }
 
 function nowServing (katzDeliLine){
-do {
+
+while (katzDeliLine.length > 0)
+
+{
   var atCounter = katzDeliLine.shift()
   return "Currently serving " + atCounter
 }
-  while (katzDeliLine.length > 0)
+
 
 return "There is nobody waiting to be served!"
 
