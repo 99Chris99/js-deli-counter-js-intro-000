@@ -78,7 +78,7 @@ i++
 
 else {
 
-return "outer" + katzDeliLine
+return "The line is currently empty."
 }
 }
 
