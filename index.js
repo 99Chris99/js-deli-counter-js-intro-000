@@ -73,7 +73,7 @@ i++
 i++
 
 }
-  return katzDeliLine//"The line is currently empty."
+  return lineList//"The line is currently empty."
 }
 
 else {
