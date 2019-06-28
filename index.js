@@ -23,9 +23,9 @@ katzDeliLine++
 
 var opening = "Welcome, "
 var middle = ". You are number "
-var closing = katzDeliLine +" in line."
+var lineNo = katzDeliLine
 
 
-return opening + name + middle + closing //+ closing
+return opening + name + middle + lineNo
 //WHY DOESN'T THIS WORK?!?!!  return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
 }
