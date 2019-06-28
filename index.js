@@ -53,3 +53,11 @@ while (katzDeliLine.length > 0)
 return "There is nobody waiting to be served!"
 
 }
+
+function currentLine(katzDeliLine) {
+while (katzDeliLine.lenght > 0)
+{
+  return "The line is currently:" + katzDeliLine + "."
+}
+  return "The line is currently empty."
+}
