@@ -27,7 +27,7 @@ var lineNo = katzDeliLine
 var personName = name
 var closing = " in line."
 
-return opening + name + middle + lineNo + closing
+return opening + personName + middle + lineNo + closing
 //return opening + name + middle + lineNo + closing
 //WHY DOESN'T THIS WORK?!?!!  return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
 }
