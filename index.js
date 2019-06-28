@@ -41,7 +41,7 @@ return 'Welcome, ' + name + '. You are number ' + katzDeliLine.length + ' in lin
 
 }
 
-nowServing (katzDeliLine){
+function nowServing (katzDeliLine){
 do {
   katzDeliLine.shift()
 }
