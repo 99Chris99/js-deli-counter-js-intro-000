@@ -34,6 +34,3 @@ return 'Welcome, ' + name + '. You are number ' + lineNo + ' in line'
 
 //WHY DOESN'T THIS WORK?!?!!  return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
 }
-
-
-
