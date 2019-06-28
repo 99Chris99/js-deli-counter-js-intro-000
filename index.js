@@ -67,7 +67,7 @@ katzDeliLine.splice(i, 0, i)
 //return katzDeliLine
 
 i++
-
+i++
 
 }
   return katzDeliLine//"The line is currently empty."
