@@ -47,7 +47,7 @@ while (katzDeliLine.length > 0)
 
 {
   var atCounter = katzDeliLine.shift()
-  return "Currently serving " + atCounter
+  return "Currently serving " + atCounter + "."
 }
 
 
