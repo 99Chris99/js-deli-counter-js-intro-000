@@ -31,8 +31,9 @@ var closing = " in line."
 
 return 'Welcome, ' + name + '. You are number ' + lineNo + ' in line'
 
-//return personName
-//return opening + personName + middle + lineNo + closing
-//return opening + name + middle + lineNo + closing
+
 //WHY DOESN'T THIS WORK?!?!!  return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
 }
+
+
+
