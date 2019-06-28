@@ -24,6 +24,7 @@ katzDeliLine++
 var opening = "Welcome, "
 var middle = ". You are number "
 var lineNo = katzDeliLine
+var personName = name
 var closing = " in line."
 
 return opening + name + middle + lineNo + closing
