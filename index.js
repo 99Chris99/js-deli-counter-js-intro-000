@@ -21,6 +21,6 @@ function takeANumber (katzDeliLine, name) {
 //  line.push(name)
 katzDeliLine++
 
-  return "Welcome, " + name + ". You are number " + katzDeliLine 
+  return "Welcome, " + name + ". You are number " + katzDeliLine
   return  " in line."
 }
