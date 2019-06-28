@@ -21,6 +21,10 @@ function takeANumber (katzDeliLine, name) {
 
 katzDeliLine++
 
+var opening = "Welcome, "
+var middle = ". You are number "
+var closing = " in line."
+
 //return "Welcome, "+name+". You are number "+katzDeliLine+" in line."
 return ". You are number "+katzDeliLine+" in line."
 //WHY DOESN'T THIS WORK!  return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
