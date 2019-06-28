@@ -64,7 +64,7 @@ if (katzDeliLine.length > 0){
 while (i < katzDeliLine.length)// && i < katzDeliLine)
 {
 
-if (no = 1) {
+if (no == 1) {
   lineList.splice(i, 1, no + ". " + lineList[i])
   i++
   no++
