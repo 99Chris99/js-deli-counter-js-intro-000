@@ -29,7 +29,7 @@ var closing = " in line."
 
 
 
-return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
+return 'Welcome, ' + name + '. You are number ' + katzDeliLine + ' in line.'
 
 //return personName
 //return opening + personName + middle + lineNo + closing
