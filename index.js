@@ -63,7 +63,7 @@ if (katzDeliLine.length > 0){
 while (i < 5 )// && i < katzDeliLine)
 {
 
-lineList.splice(i, 1, i + ."." + lineList[i])
+lineList.splice(i, 1, i + "." + lineList[i])
 
   //lineList.push(katzDeliLine[i])
   //return "The line is currently:" + i + lineList
