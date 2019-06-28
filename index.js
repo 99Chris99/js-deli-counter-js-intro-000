@@ -71,7 +71,6 @@ lineList.splice(i, 1, no + ". " + lineList[i])
 //return katzDeliLine
 
 i++
-i++
 no++
 
 }
