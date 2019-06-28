@@ -56,7 +56,7 @@ return "There is nobody waiting to be served!"
 
 function currentLine(katzDeliLine) {
 var i = 0
-var lineList = katzDeliLine
+var lineList = [katzDeliLine]
 while (i < 5 )// && i < katzDeliLine)
 {
 
