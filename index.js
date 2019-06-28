@@ -60,7 +60,7 @@ var lineList = [...katzDeliLine]
 
 if (katzDeliLine.length > 0){
 
-while (i < 5 )// && i < katzDeliLine)
+while (i < 10 )// && i < katzDeliLine)
 {
 
 lineList.splice(i, 1, i + "." + lineList[i])
