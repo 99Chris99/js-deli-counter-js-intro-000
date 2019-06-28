@@ -55,7 +55,8 @@ return "There is nobody waiting to be served!"
 }
 
 function currentLine(katzDeliLine) {
-var i = 1
+var i = 0
+Var no = 1
 var lineList = [...katzDeliLine]
 
 if (katzDeliLine.length > 0){
@@ -63,7 +64,7 @@ if (katzDeliLine.length > 0){
 while (i < 10 )// && i < katzDeliLine)
 {
 
-lineList.splice(i, 1, i + "." + lineList[i])
+lineList.splice(i, 1, no + "." + lineList[i])
 
   //lineList.push(katzDeliLine[i])
   //return "The line is currently:" + i + lineList
@@ -71,6 +72,7 @@ lineList.splice(i, 1, i + "." + lineList[i])
 
 i++
 i++
+no++
 
 }
   return lineList//"The line is currently empty."
