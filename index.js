@@ -76,8 +76,10 @@ i++
   return katzDeliLine//"The line is currently empty."
 }
 
-return "outer" + katzDeliLine
+else {
 
+return "outer" + katzDeliLine
+}
 }
 
 
