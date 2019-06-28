@@ -57,7 +57,7 @@ return "There is nobody waiting to be served!"
 function currentLine(katzDeliLine) {
 var i = 0
 var lineList = []
-while i < katzDeliLine//(katzDeliLine.length > 0)// && i < katzDeliLine)
+while (i < katzDeliLine)//(katzDeliLine.length > 0)// && i < katzDeliLine)
 {
 
 katzDeliLine.splice(i, 0, i)
