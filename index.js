@@ -23,11 +23,13 @@ katzDeliLine++
 
 var opening = "Welcome, "
 var middle = ". You are number "
-var lineNo = katzDeliLine
+var lineNo = katzDeliLine.toString()
 var personName = name
 var closing = " in line."
 
-return 'Welcome'
+
+
+return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
 
 //return personName
 //return opening + personName + middle + lineNo + closing
