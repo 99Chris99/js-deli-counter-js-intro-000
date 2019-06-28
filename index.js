@@ -57,6 +57,9 @@ return "There is nobody waiting to be served!"
 function currentLine(katzDeliLine) {
 var i = 0
 var lineList = [katzDeliLine]
+
+while (katzDeliLine > 0) {
+
 while (i < 5 )// && i < katzDeliLine)
 {
 
@@ -72,6 +75,11 @@ i++
 }
   return katzDeliLine//"The line is currently empty."
 }
+
+return "outer" + katzDeliLine
+
+}
+
 
 /*function johnLennonFacts(facts){
 var array = []
