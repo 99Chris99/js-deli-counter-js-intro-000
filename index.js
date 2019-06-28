@@ -23,8 +23,8 @@ katzDeliLine++
 
 var opening = "Welcome, "
 var middle = ". You are number "
-var closing = " in line."
-array.push katzDeliLine(" in line.")
+var closing = katzDeliLine +" in line."
+
 
 return opening + name + middle + katzDeliLine //+ closing
 //WHY DOESN'T THIS WORK?!?!!  return "Welcome, " + name + ". You are number " + katzDeliLine + " in line."
