@@ -56,11 +56,11 @@ return "There is nobody waiting to be served!"
 
 function currentLine(katzDeliLine) {
 var i = 0
-var lineList = [katzDeliLine]
+var lineList = []
 while (i < 5 )// && i < katzDeliLine)
 {
 
-lineList.splice(i, 0, i)
+katzDeliLine.splice(i, 0, i)
 
   //lineList.push(katzDeliLine[i])
   //return "The line is currently:" + i + lineList
