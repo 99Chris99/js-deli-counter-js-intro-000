@@ -19,7 +19,7 @@ return array;
 
 function takeANumber (katzDeliLine, name) {
 //  line.push(name)
-line++
+katzDeliLine++
   //return `Welcome, $(name). You are number $(line.length) in line`
   return "Welcome, " + name + ". You are number " + line + " in line."
 }
