@@ -60,7 +60,7 @@ var lineList = [katzDeliLine]
 while (i < 5 )// && i < katzDeliLine)
 {
 
-lineList.splice(i, 0, i)
+katzDeliLine.splice(i, 0, i)
 
   //lineList.push(katzDeliLine[i])
   //return "The line is currently:" + i + lineList
