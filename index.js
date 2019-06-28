@@ -58,7 +58,7 @@ function currentLine(katzDeliLine) {
 var i = 0
 var lineList = [katzDeliLine]
 
-while (katzDeliLine > 0) {
+if (katzDeliLine > 0){
 
 while (i < 5 )// && i < katzDeliLine)
 {
